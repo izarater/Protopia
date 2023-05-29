@@ -1,0 +1,322 @@
+[
+    {
+      "model": "completeForm.Oficio",
+      "pk": 1,
+      "fields": {"NombreOficio": "herrero"}
+    },
+    {
+      "model": "completeForm.Oficio",
+      "pk": 2,
+      "fields": {"NombreOficio": "carpintero"}
+    },
+    {
+      "model": "completeForm.Oficio",
+      "pk": 3,
+      "fields": {"NombreOficio": "zapatero"}
+    },
+    {
+      "model": "completeForm.Oficio",
+      "pk": 4,
+      "fields": {"NombreOficio": "sastre"}
+    },
+    {
+      "model": "completeForm.Oficio",
+      "pk": 5,
+      "fields": {"NombreOficio": "platero"}
+    },
+    {
+      "model": "completeForm.Oficio",
+      "pk": 6,
+      "fields": {"NombreOficio": "tejedor"}
+    },
+    {
+      "model": "completeForm.Oficio",
+      "pk": 7,
+      "fields": {"NombreOficio": "cerero"}
+    },
+    {
+      "model": "completeForm.Oficio",
+      "pk": 8,
+      "fields": {"NombreOficio": "sillero"}
+    },
+    {
+      "model": "completeForm.Oficio",
+      "pk": 9,
+      "fields": {"NombreOficio": "ojalatero"}
+    },
+    {
+      "model": "completeForm.Oficio",
+      "pk": 10,
+      "fields": {"NombreOficio": "cerrajero"}
+    },
+    {
+      "model": "completeForm.Oficio",
+      "pk": 11,
+      "fields": {"NombreOficio": "mecánico"}
+    },
+    {
+      "model": "completeForm.Oficio",
+      "pk": 12,
+      "fields": {"NombreOficio": "soldador"}
+    },
+    {
+      "model": "completeForm.Oficio",
+      "pk": 13,
+      "fields": {"NombreOficio": "escultor"}
+    },
+    {
+      "model": "completeForm.Oficio",
+      "pk": 14,
+      "fields": {"NombreOficio": "artesano"}
+    },
+    {
+      "model": "completeForm.Oficio",
+      "pk": 15,
+      "fields": {"NombreOficio": "tornero"}
+    },
+    {
+      "model": "completeForm.Oficio",
+      "pk": 16,
+      "fields": {"NombreOficio": "peletero"}
+    },
+    {
+      "model": "completeForm.Oficio",
+      "pk": 17,
+      "fields": {"NombreOficio": "impresor"}
+    },
+    {
+      "model": "completeForm.Oficio",
+      "pk": 18,
+      "fields": {"NombreOficio": "electricista"}
+    },
+    {
+      "model": "completeForm.Oficio",
+      "pk": 19,
+      "fields": {"NombreOficio": "arquitecto"}
+    },
+    {
+      "model": "completeForm.Oficio",
+      "pk": 20,
+      "fields": {"NombreOficio": "maquinista"}
+    },
+    {
+      "model": "completeForm.Oficio",
+      "pk": 21,
+      "fields": {"NombreOficio": "tapicero"}
+    },
+    {
+      "model": "completeForm.Oficio",
+      "pk": 22,
+      "fields": {"NombreOficio": "desarrollador web"}
+    },
+    {
+      "model": "completeForm.Oficio",
+      "pk": 23,
+      "fields": {"NombreOficio": "programador"}
+    },
+    {
+      "model": "completeForm.Oficio",
+      "pk": 24,
+      "fields": {"NombreOficio": "diseñador de base de datos"}
+    },
+    {
+      "model": "completeForm.Oficio",
+      "pk": 25,
+      "fields": {"NombreOficio": "ilustrador"}
+    },
+    {
+      "model": "completeForm.Oficio",
+      "pk": 26,
+      "fields": {"NombreOficio": "artista plástico"}
+    },
+    {
+      "model": "completeForm.Oficio",
+      "pk": 27,
+      "fields": {"NombreOficio": "tornero fresador"}
+    },
+    {
+      "model": "completeForm.Oficio",
+      "pk": 28,
+      "fields": {"NombreOficio": "enchapador"}
+    },
+    {
+      "model": "completeForm.Oficio",
+      "pk": 29,
+      "fields": {"NombreOficio": "parquetero"}
+    },
+    {
+      "model": "completeForm.Oficio",
+      "pk": 30,
+      "fields": {"NombreOficio": "instalador de material"}
+    },
+    {
+      "model": "completeForm.Oficio",
+      "pk": 31,
+      "fields": {"NombreOficio": "vidriero"}
+    },
+    {
+      "model": "completeForm.Oficio",
+      "pk": 32,
+      "fields": {"NombreOficio": "barnizador"}
+    },
+    {
+      "model": "completeForm.Oficio",
+      "pk": 33,
+      "fields": {"NombreOficio": "moldeador"}
+    },
+    {
+      "model": "completeForm.Oficio",
+      "pk": 34,
+      "fields": {"NombreOficio": "chapista"}
+    },
+    {
+      "model": "completeForm.Oficio",
+      "pk": 35,
+      "fields": {"NombreOficio": "calderero"}
+    },
+    {
+      "model": "completeForm.Oficio",
+      "pk": 36,
+      "fields": {"NombreOficio": "montador de estructuras metálicas"}
+    },
+    {
+      "model": "completeForm.Oficio",
+      "pk": 37,
+      "fields": {"NombreOficio": "oxicortador"}
+    },
+    {
+      "model": "completeForm.Oficio",
+      "pk": 38,
+      "fields": {"NombreOficio": "aparejador"}
+    },
+    {
+      "model": "completeForm.Oficio",
+      "pk": 39,
+      "fields": {"NombreOficio": "forjador"}
+    },
+    {
+      "model": "completeForm.Oficio",
+      "pk": 40,
+      "fields": {"NombreOficio": "pulidor"}
+    },
+    {
+      "model": "completeForm.Oficio",
+      "pk": 41,
+      "fields": {"NombreOficio": "afilador"}
+    },
+    {
+      "model": "completeForm.Oficio",
+      "pk": 42,
+      "fields": {"NombreOficio": "alfarero"}
+    },
+    {
+      "model": "completeForm.Oficio",
+      "pk": 43,
+      "fields": {"NombreOficio": "ceramista"}
+    },
+    {
+      "model": "completeForm.Oficio",
+      "pk": 44,
+      "fields": {"NombreOficio": "rotulista"}
+    },
+    {
+      "model": "completeForm.Oficio",
+      "pk": 45,
+      "fields": {"NombreOficio": "grabador"}
+    },
+    {
+      "model": "completeForm.Oficio",
+      "pk": 46,
+      "fields": {"NombreOficio": "encuadernador"}
+    },
+    {
+      "model": "completeForm.Oficio",
+      "pk": 47,
+      "fields": {"NombreOficio": "tipógrafo"}
+    },
+    {
+      "model": "completeForm.Oficio",
+      "pk": 48,
+      "fields": {"NombreOficio": "tejedor"}
+    },
+    {
+      "model": "completeForm.Oficio",
+      "pk": 49,
+      "fields": {"NombreOficio": "cestero"}
+    },
+    {
+      "model": "completeForm.Oficio",
+      "pk": 50,
+      "fields": {"NombreOficio": "mimbrero"}
+    },
+    {
+      "model": "completeForm.Oficio",
+      "pk": 51,
+      "fields": {"NombreOficio": "sombrero"}
+    },
+    {
+      "model": "completeForm.Oficio",
+      "pk": 52,
+      "fields": {"NombreOficio": "tallador"}
+    },
+    {
+      "model": "completeForm.Oficio",
+      "pk": 53,
+      "fields": {"NombreOficio": "joyero"}
+    },
+    {
+      "model": "completeForm.Oficio",
+      "pk": 54,
+      "fields": {"NombreOficio": "orfebre"}
+    },
+    {
+      "model": "completeForm.Oficio",
+      "pk": 55,
+      "fields": {"NombreOficio": "platero"}
+    },
+    {
+      "model": "completeForm.Oficio",
+      "pk": 56,
+      "fields": {"NombreOficio": "bisutero"}
+    },
+    {
+      "model": "completeForm.Oficio",
+      "pk": 57,
+      "fields": {"NombreOficio": "cortador"}
+    },
+    {
+      "model": "completeForm.Oficio",
+      "pk": 58,
+      "fields": {"NombreOficio": "patronista"}
+    },
+    {
+      "model": "completeForm.Oficio",
+      "pk": 59,
+      "fields": {"NombreOficio": "costurero"}
+    },
+    {
+      "model": "completeForm.Oficio",
+      "pk": 60,
+      "fields": {"NombreOficio": "bordador"}
+    },
+    {
+      "model": "completeForm.Oficio",
+      "pk": 61,
+      "fields": {"NombreOficio": "colchonero"}
+    },
+    {
+      "model": "completeForm.Oficio",
+      "pk": 62,
+      "fields": {"NombreOficio": "ensamblador"}
+    },
+    {
+      "model": "completeForm.Oficio",
+      "pk": 63,
+      "fields": {"NombreOficio": "planchador"}
+    },
+    {
+      "model": "completeForm.Oficio",
+      "pk": 64,
+      "fields": {"NombreOficio": "empacador"}
+    }
+  ]
