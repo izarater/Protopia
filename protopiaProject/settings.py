@@ -29,7 +29,8 @@ environ.Env.read_env()
 DATABASE_URL = env('DATABASE_URL')
 conn = psycopg2.connect(DATABASE_URL, sslmode='require')
 SECRET_KEY = env('SECRET_KEY')
-DOMAIN =env('DOMAIN')
+DOMAIN = env('DOMAIN')
+DOMAIN_CSRF = env('DOMAIN_CSRF')
 
 
 # SECURITY WARNING: don't run with debug turned on in production!
