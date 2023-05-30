@@ -8,6 +8,7 @@ from .models import Contacto
 class ContactoResource(resources.ModelResource):
     class Meta:
         model = Contacto
+        import_id_fields = ['IdContacto', ]
 
 class ContactoAdmin(ImportExportModelAdmin, admin.ModelAdmin):
     search_fields = ['Nombre']
