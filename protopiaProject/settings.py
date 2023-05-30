@@ -26,6 +26,8 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 env = environ.Env()
 environ.Env.read_env()
 
+env_domain = 'web-production-a92c.up.railway.app'
+
 DATABASE_URL = env('DATABASE_URL')
 conn = psycopg2.connect(DATABASE_URL, sslmode='require')
 SECRET_KEY = env('SECRET_KEY')
@@ -34,7 +36,7 @@ SECRET_KEY = env('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['protopiaproject-production.up.railway.app','127.0.0.1']
+ALLOWED_HOSTS = [env_domain,'127.0.0.1']
 # Application definition
 
 INSTALLED_APPS = [
