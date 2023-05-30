@@ -34,8 +34,10 @@ def secondPage(request):
     if form.is_valid():
         form.save()
         #request.session['selectedContact'] = selectedContact.IdContacto
+        #request.session['selectedContact'] = selectedContact.Oficios.set(Oficio.NombreOficio)
         return redirect(mainPage)
- 
+    
+    #form.Meta.widgets['Oficios'].set(Oficio.NombreOficio)
     context['form']= form
     return render(request, 'secondPage.html',context)
 

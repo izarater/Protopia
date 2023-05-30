@@ -8,6 +8,8 @@ from django.utils.text import slugify
 from django.db.models import IntegerField, Model
 from django.db.models import Avg
 from django.db.models.deletion import CASCADE
+from django.db.models.signals import m2m_changed
+from django.dispatch import receiver
 
 import math
 
@@ -20,8 +22,8 @@ import math
 
 
 class Oficio(models.Model):
-    IdOficio = models.AutoField(primary_key=True)
     NombreOficio= models.CharField(max_length=50,null=False,verbose_name="Oficio")
+    IdOficio = models.AutoField(primary_key=True)
     def __str__(self):
         return self.NombreOficio
 class Contacto(models.Model):
@@ -36,6 +38,17 @@ class Contacto(models.Model):
     IdCreador =  models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE)
     Oficios = models.ManyToManyField(Oficio, verbose_name=("Oficio(s)"))
     Descripcion = models.TextField(null=False,verbose_name="Descripción") 
+    Ubicación = models.CharField(max_length=100, null=False)
+    nombresoficios = models.CharField(max_length=300,null=False)
+
+    def save(self, *args, **kwargs):
+        self.Ubicación = '(' + str(self.xCoor) + ', ' + str(self.yCoor) + ')'
+        super().save(*args, **kwargs)
     def __str__(self) -> str:
         return f"{self.Nombre}"
-
+    
+@receiver(m2m_changed, sender=Contacto.Oficios.through)
+def update_oficios_names(sender, instance, action, **kwargs):
+    if action == 'post_add' or action == 'post_remove':
+        instance.nombresoficios = ", ".join([of.NombreOficio for of in instance.Oficios.all()])
+        instance.save()

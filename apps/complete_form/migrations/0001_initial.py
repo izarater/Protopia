@@ -32,9 +32,11 @@ class Migration(migrations.Migration):
                 ('Municipio', models.CharField(max_length=100, verbose_name='Municipio')),
                 ('xCoor', models.FloatField(verbose_name='Latitud (x)')),
                 ('yCoor', models.FloatField(verbose_name='Longitud (y)')),
+                ('Ubicación', models.CharField(max_length=100, verbose_name='Nombre')),
                 ('Descripcion', models.TextField(verbose_name='Descripción')),
                 ('IdCreador', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to=settings.AUTH_USER_MODEL)),
                 ('Oficios', models.ManyToManyField(to='complete_form.oficio', verbose_name='Oficio(s)')),
+                ('nombresoficios', models.CharField(max_length=300, verbose_name="nombreoficio")),
             ],
         ),
     ]

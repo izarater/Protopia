@@ -47,6 +47,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'apps.complete_form',
+    'import_export',
 ]
 
 MIDDLEWARE = [
