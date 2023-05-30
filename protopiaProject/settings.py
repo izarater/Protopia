@@ -78,7 +78,7 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'protopiaProject.wsgi.application'
-CSRF_TRUSTED_ORIGINS = ['https://protopiaproject-production.up.railway.app']
+CSRF_TRUSTED_ORIGINS = ['https://web-production-a92c.up.railway.app']
 # Database
 # https://docs.djangoproject.com/en/4.0/ref/settings/#databases
 
