@@ -26,17 +26,16 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 env = environ.Env()
 environ.Env.read_env()
 
-env_domain = 'web-production-a92c.up.railway.app'
-
 DATABASE_URL = env('DATABASE_URL')
 conn = psycopg2.connect(DATABASE_URL, sslmode='require')
 SECRET_KEY = env('SECRET_KEY')
+DOMAIN =env('DOMAIN')
 
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [env_domain,'127.0.0.1']
+ALLOWED_HOSTS = [DOMAIN,'127.0.0.1']
 # Application definition
 
 INSTALLED_APPS = [
@@ -78,7 +77,7 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'protopiaProject.wsgi.application'
-CSRF_TRUSTED_ORIGINS = ['https://web-production-a92c.up.railway.app']
+CSRF_TRUSTED_ORIGINS = [DOMAIN]
 # Database
 # https://docs.djangoproject.com/en/4.0/ref/settings/#databases
 
